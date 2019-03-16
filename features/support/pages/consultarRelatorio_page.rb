@@ -10,7 +10,7 @@ class Idwall
   
     # inicialização da estrutura do body
     def initialize(body)
-        @auth = {'Authorization': '24074832-0feb-40cb-91d4-e1ac9cf56dcd','content-type': 'application/json'}
+        @auth = {'Authorization': 'inserir o token aqui','content-type': 'application/json'}
         
         # método POST, body recebe o body montado mais abaixo na leitura do CSV
         @sendDocument = {

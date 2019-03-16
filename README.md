@@ -6,6 +6,7 @@
 * Pré requisitos:  
    *  Ter instalado o ruby na máquina que irá rodar o projeto, 
    *  É necessário usar um prompt de comando e navegar até a pasta que está o projeto e executar o comando: bundle install, 
+   *  **IMPORTANTE**: No arquivo consultarRelatorio_page.rb inserir o token no campo 'Authorization' (neste projeto este campo está com a seguinte descrição: 'inserir o token aqui')
    *  **IMPORTANTE**: Prencher o arquivo file.csv com dados reais para que o ultimo cenário possa ser executado com sucesso 
 
 * Para rodar o projeto deverá abrir o prompt de comando (neste cado foi usado o Cmder para efetuar os testes) e executar o seguinte comando: cucumber. Nessa hora irá aparecer os logs das execuções em tempo real. Nesse projeto está configurado no diretório <log> para cada execução gerar um relatório com os status das execuções.
