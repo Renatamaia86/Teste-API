@@ -1,4 +1,4 @@
-#Desafio QA - API
+# Desafio QA - API
 Esse projeto consiste no resultado do desafio QA. A liguagem de programação usada foi o Ruby. Usei também as seguintes tecnologias:
     - Cucumber
     - HTTParty
