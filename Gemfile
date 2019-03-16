@@ -5,4 +5,4 @@ gem "httparty"
 gem "json"
 gem "rspec"
 gem "faker"
-
+gem "csv"

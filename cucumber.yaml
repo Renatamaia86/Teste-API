@@ -1,0 +1,5 @@
+default: -p bdd -p default-report
+
+bdd: --format pretty
+
+default-report: FILE=cucumber.yaml --format html --out log/<%= Time.now.strftime("%Y%m%d-%H%M%S") %>-result.html
